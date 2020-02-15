@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+82438a59801e0eb58a6fcc7fdf0e82cd dmlc-core/CMakeFiles/dmlccore_lint
