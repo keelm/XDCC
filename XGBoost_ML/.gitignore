@@ -67,11 +67,11 @@ nb-configuration*
 .pydevproject
 .settings/
 build
-config.mk
-xgboost
+#config.mk
+#xgboost
 *.data
 build_plugin
-dmlc-core
+#dmlc-core
 .idea
 recommonmark/
 tags

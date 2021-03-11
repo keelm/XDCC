@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dmlccore"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dmlc-core\;CMake Files\dmlc-core\cmake\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/cmake-build-debug/dmlc-core"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dmlccore">
+				<Option output="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/cmake-build-debug/dmlc-core/dmlccore.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/cmake-build-debug/dmlc-core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DDMLC_USE_HDFS=0"/>
+					<Add option="-DDMLC_USE_S3=0"/>
+					<Add option="-DDMLC_USE_AZURE=0"/>
+					<Add option="-D__USE_XOPEN2K8"/>
+					<Add option="-DDMLC_USE_CXX11"/>
+					<Add directory="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/include"/>
+					<Add directory="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include"/>
+					<Add directory="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/rabit/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 dmlccore"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dmlccore/fast">
+				<Option output="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/cmake-build-debug/dmlc-core/dmlccore.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/cmake-build-debug/dmlc-core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DDMLC_USE_HDFS=0"/>
+					<Add option="-DDMLC_USE_S3=0"/>
+					<Add option="-DDMLC_USE_AZURE=0"/>
+					<Add option="-D__USE_XOPEN2K8"/>
+					<Add option="-DDMLC_USE_CXX11"/>
+					<Add directory="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/include"/>
+					<Add directory="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include"/>
+					<Add directory="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/rabit/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 dmlccore/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dmlccore_lint">
+				<Option working_dir="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/cmake-build-debug/dmlc-core"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 dmlccore_lint"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Simon\Documents\vm_share\xgboost_further_optimized\cmake-build-debug\dmlc-core\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/any.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/array_view.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/base.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/common.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/concurrency.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/config.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/data.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/input_split_shuffle.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/io.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/json.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/logging.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/lua.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/memory.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/memory_io.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/omp.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/optional.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/parameter.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/recordio.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/registry.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/serializer.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/thread_local.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/threadediter.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/timer.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/include/dmlc/type_traits.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/config.cc">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/data.cc">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io.cc">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io/input_split_base.cc">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io/input_split_base.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io/line_split.cc">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io/line_split.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io/local_filesys.cc">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io/local_filesys.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io/recordio_split.cc">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/io/recordio_split.h">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/src/recordio.cc">
+			<Option target="dmlccore"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dmlc-core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/dmlc-core/cmake/Utils.cmake">
+			<Option virtualFolder="CMake Files\dmlc-core\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Simon/Documents/vm_share/xgboost_further_optimized/cmake/Utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
