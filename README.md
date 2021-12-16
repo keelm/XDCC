@@ -1,6 +1,31 @@
 # Extreme Dynamic Classifier Chains
 Classifier chains is a key technique in multi-label classification, sinceit allows to consider label dependencies effectively. However, the classifiers arealigned according to a static order of the labels. In the concept of **dynamic classifier chains (DCC)** the label ordering is chosen for each prediction dynamically depending on the respective instance at hand. We combine this concept with the boosting of **extreme gradient boosted trees (XGBoot)**, an effective and scalable state-of-the-art technique, and incorporate DCC in a fast multi-label extension of XGBoost which we make publicly available. As only positive labels have to be predicted and these are usually only few, the training costs can be further substantially reduced. Moreover, as experiments on ten datasets show, the length of the chain allows for a more control over the usage of previous predictions and hence over the measure one want to optimize,
 
+If you want to use the code, or just cite the paper, please use the following:
+```
+@ARTICLE{loza21DCC,
+        author = {Loza Menc{\'{\i}}a, Eneldo and Kulessa, Moritz and Bohlender, Simon and F{\"{u}}rnkranz, Johannes},
+         title = {Tree-Based Dynamic Classifier Chains},
+       journal = {Machine Learning Journal},
+          year = {2021},
+           url = {https://arxiv.org/abs/2112.06672},
+          note = {To be published}
+}
+@INPROCEEDINGS{bohlender20XDCC,
+       author = {Bohlender, Simon and Loza Menc{\'{\i}}a, Eneldo and Kulessa, Moritz},
+        month = oct,
+        title = {Extreme Gradient Boosted Multi-label Trees for Dynamic Classifier Chains},
+    booktitle = {Discovery Science - 23rd International Conference, {DS} 2020, Thessaloniki, Greece, October 19-21, 2020, Proceedings},
+       series = {Lecture Notes in Computer Science},
+       volume = {12323},
+         year = {2020},
+        pages = {471--485},
+    publisher = {Springer International Publishing},
+          url = {https://arxiv.org/abs/2006.08094},
+          doi = {10.1007/978-3-030-61527-7_31},
+}
+``` 
+
 
 # Installation
 
